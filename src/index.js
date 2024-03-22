@@ -12,12 +12,12 @@ let port=8000
 
 connectDB()
 .then( 
-app.listen(  port,()=>{
+app.listen(  port ,()=>{
   console.log( `app listen on port : ${port}`)
 } )
 )
 .catch((error)=> {
-    console.log("mongodb not connected !!!", error);
+    console.log("mongodb not port !!!", error);
     process.exit(1)
 })
 
